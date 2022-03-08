@@ -7,14 +7,6 @@ const olavo: Pessoa = {
     nome: 'Olavo',
     idade: 19,
     cpf: '785.568.158-65',
-    amigos: [
-        {
-            nome: 'Julio'
-        },
-        {
-            nome: 'Lara'
-        }
-    ],
     conta: {
         digV: 7,
         cod: 5465489496,

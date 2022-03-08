@@ -3,18 +3,10 @@ import { Response } from "express";
 import PDFPrinter from "pdfmake";
 import { TDocumentDefinitions } from "pdfmake/interfaces";
 
-type Amigo = {
-    nome: string,
-    idade?: number
-}
-
 type Pessoa = {
     nome: string,
     cpf: string,
     idade: number,
-
-    amigos?: Amigo[],
-
     conta: {
         digV: number,
         cod: number,
